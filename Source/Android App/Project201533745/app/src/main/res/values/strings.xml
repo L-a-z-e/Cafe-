@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">아아맛집</string>
+    <string name="ip">http://172.18.45.193:9993</string>
+</resources>

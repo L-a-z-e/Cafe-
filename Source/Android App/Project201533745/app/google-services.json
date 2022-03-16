@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "298108873975",
+    "firebase_url": "https://aamatzip.firebaseio.com",
+    "project_id": "aamatzip",
+    "storage_bucket": "aamatzip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298108873975:android:7e0d54744c4722892bf7f2",
+        "android_client_info": {
+          "package_name": "kr.ac.gachon.Project201533745"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298108873975-h01kf4p9m6tg65s4qqs2aksekl07ourc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgdS3jRCGBwx0n-PI8tv5s2-cgaXU1QDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298108873975-h01kf4p9m6tg65s4qqs2aksekl07ourc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

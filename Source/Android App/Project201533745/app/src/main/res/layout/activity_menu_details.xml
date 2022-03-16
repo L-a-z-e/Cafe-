@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/main_image"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView_menu"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="이름 : "
+
+            android:gravity="center_horizontal"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="가격 : "
+            android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/tvWon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="원 "/>
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:id="@+id/tvAmount"
+                android:text="수량:"/>
+
+
+            <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+                android:id="@+id/btnMinus"
+            android:background="@drawable/minusimg"
+            />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNumber"
+                android:gravity="center_horizontal"
+                android:text="1"/>
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/addimg"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가사하항(선택)"
+        android:textColor="@color/black"
+        />
+
+    <CheckBox
+        android:id="@+id/shotCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="샷추가(500원)" />
+
+    <CheckBox
+        android:id="@+id/syrupCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시럽추가(300원)" />
+
+    <CheckBox
+        android:id="@+id/iceCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이스(500)원" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주문표에 추가"
+            android:layout_weight="1"
+            android:id="@+id/addOrderBtn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주문하기"
+            android:layout_weight="1"
+            android:id="@+id/orderBtn" />
+    </LinearLayout>
+
+</LinearLayout>
